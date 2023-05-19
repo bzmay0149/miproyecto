@@ -1,7 +1,7 @@
 <template>
  
   <TextComp/>
-  <CardComp  />
+  <CardComp hola="../imgs/cardHtml.jpg" />
   <div class="contenedorCard">  
   <NewComp imagen="../imgs/cardCss.jpeg" Start="Card1" titulo="Titulo1" alt="imagen 1"/>
   <NewComp imagen="../imgs/cardJs.png" Start="Card2" titulo="Titulo2" alt="imagen 2" />

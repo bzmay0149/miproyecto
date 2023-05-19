@@ -1,8 +1,8 @@
 <template>
-    <footer class="bg-light text-center text-white pt-5 gjgj">
+    <footer class="conte text-center text-primary pt-5  pt-0">
   <!-- Grid container -->
-  <div class="container p-4 pb-0">
-    <router-link to="/about" class="nav-link active" aria-current="page"><button class="btn_about text-primary">Conóceme</button></router-link> 
+  <div class="container p-4 pb-0 mb-0">
+    <router-link to="/about" class="nav-link active" aria-current="page"><button class="btn_about text-primary mb-4">Conóceme</button></router-link> 
     <!-- Section: Social media -->
     <section class="mb-4">
 
@@ -64,9 +64,9 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-center p-3" style="background-color:   #C4DDFF;">
+    © 2023 Copyright:
+    <a class="text-primary" href="https://mdbootstrap.com/">MayQuiz</a>
   </div>
   <!-- Copyright -->
 </footer>
@@ -84,10 +84,12 @@
     padding: .2em;
   
   } 
-  .gjgj{
-    background-color: #BED7FD;
+  .container{
+    background-color: #C4DDFF;
+    
   }
   .conte{
-    background-color: #BED7FD;
+    background-color:   #C4DDFF;
+    
   }
 </style>

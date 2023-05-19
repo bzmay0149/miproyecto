@@ -1,28 +1,5 @@
 <template>
-   <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid ">
-    <router-link to="/" class="navbar-brand  "><button class="btn_logo"><img class="logo" src="../assets/img/logo.png" alt="logo" ></button></router-link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <router-link to="/about" class="nav-link active" aria-current="page"><button class="btn_about">Conóceme</button></router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/html"  class="nav-link"><button class="btn_nav"><img class="img_len" src="../assets/img/html.png" alt="button HTML"></button></router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/css"  class="nav-link"><button class="btn_nav"><img class="img_len" src="../assets/img/css.png" alt="button CSS"></button></router-link>
-        </li>
-        <li class="nav-item">
-          <router-link to="/js"  class="nav-link"><button class="btn_nav"><img class="img_len" src="../assets/img/js.png" alt="button JS"></button></router-link>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav> -->
+   
 
 <nav id="navbar-example2" class="navbar bg-body-tertiary px-5  ">
   <router-link to="/" class="navbar-brand ps-5"><button class="btn_logo border border-5 border border-top-0"><img class="logo  " src="../assets/img/logo.png" alt="logo" ></button></router-link>
