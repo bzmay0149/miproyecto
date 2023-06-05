@@ -1,12 +1,12 @@
 <template>
  
   <TextComp/>
-  <CardComp hola="../imgs/cardHtml.jpg" />
-  <div class="contenedorCard">  
-  <NewComp imagen="../imgs/cardCss.jpeg" Start="Card1" titulo="Titulo1" alt="imagen 1"/>
-  <NewComp imagen="../imgs/cardJs.png" Start="Card2" titulo="Titulo2" alt="imagen 2" />
-  <NewComp imagen="../imgs/cardCss.jpeg" Start="Card3" titulo="Titulo3" alt="imagen 3" />
-  </div>
+  <CardComp imagenHtml="../imgs/cardHtml.jpg" imagenCss="../imgs/cardCss.jpeg" imagenJs="../imgs/cardJs.png" start1="HTML" start2="CSS" start3="JS" /> 
+  <!-- <div class="contenedorCard">   
+  <NewComp imagen="../imgs/cardHtml.jpg" Start="HTML" titulo="Titulo1" alt="imagen 1"/>
+  <NewComp imagen="../imgs/cardCss.jpeg" Start="CSS" titulo="Titulo2" alt="imagen 2" />
+  <NewComp imagen="../imgs/cardJs.png" Start="JS" titulo="Titulo3" alt="imagen 3" />
+  </div> -->
 
 </template>
 
@@ -20,9 +20,11 @@ import NewComp from '@/components/NewComp.vue';
 </script>
 <style scoped>
 .body{
-  background-color: aquamarine;
+  background-color: #E2EAF4;
 }
 .contenedorCard{
   display: flex;
+  background-image: url(../assets/img/fondoplanetas.jpg);
+  filter: blur(6px);
 }
 </style>

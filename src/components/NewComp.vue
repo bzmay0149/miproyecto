@@ -1,8 +1,8 @@
 <template>
-    <div class="cards" style="18rem">
-        <img :src="imagen" class="card-img-top" :alt="alt" />
+    <div class="cards m-5">
+        <button class="btn-card"><img :src="imagen" class="card-img-top" :alt="alt" /></button>
         <a :href="enlace" class="btn btn-primary">{{ Start }}</a>
-        <p>{{ titulo }}</p>
+       
     </div>
 </template>
 
@@ -12,7 +12,7 @@ export default{
         imagen: String,
         enlace: String,
         Start: String,
-        titulo: String,
+        
         alt: String
     },
     setup(props) {
@@ -26,33 +26,45 @@ export default{
 </script>
 
 <style scoped>
-  .cards {
+  .cards{
+  
+    border-radius: 10%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    width: 20rem;
+    width: 25rem;
     /* height: 100vh; */
     /* border: 1px solid black; */
     margin-top: 1rem;
     margin-bottom: 6rem;
-    padding: 5rem;
-    background: #ffefba; /* fallback for old browsers */
-    background: -webkit-linear-gradient(
-      to right,
-      #ffffff,
-      #ffefba
-    ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(
-      to right,
-      #ffffff,
-      #ffefba
-    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+   
+   background-image: url(../assets/img/fondoplanetas.jpg);
   }
 
-  .card-img-top{
-    width: 20rem;
-    height: 20rem;
-    border: 1px solid gray;
+  .card-img-top{ 
+
+    border-radius: 10%;
+   height: 15em; 
+   width: 25em;
+   
+  
+   
+  }
+  
+
+  .btn{
+
+    border-radius: 10%;
+   height: 2em; 
+   width: 6em;
+  }
+  .btn-card {
+    
+    border: none;
+    background-image: url(../assets/img/fondoplanetas.jpg);
+    
   }
   </style>

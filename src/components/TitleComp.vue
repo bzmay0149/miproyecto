@@ -19,5 +19,8 @@ export default {
 </script>
 
 <style scoped>
-
+.card{
+  background-image: url(../assets/img/fondoplanetas.jpg);
+  
+}
 </style>

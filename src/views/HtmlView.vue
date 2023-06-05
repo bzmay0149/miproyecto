@@ -1,23 +1,39 @@
 <template>
    <TitleComp title="HTML" />
-   <CardComp @imagenesrc="fotoHtml"/>
-</template>
+   <!-- <div class="contenedorCard">  
+  <NewComp imagen="../imgs/cardHtml.jpg" Start="JUNIOR" titulo="Titulo1" alt="imagen 1"/>
+  <NewComp imagen="../imgs/cardCss.jpeg" Start="SEMI-SE" titulo="Titulo2" alt="imagen 2" />
+  <NewComp imagen="../imgs/cardJs.png" Start="SENIOR" titulo="Titulo3" alt="imagen 3" />
+  </div> -->
+  <CardComp imagenHtml="../imgs/cardHtml.jpg" imagenCss="../imgs/cardCss.jpeg" imagenJs="../imgs/cardJs.png" start1="HTML" start2="CSS" start3="JS" />
+  </template>
 
 <script setup>
 import TitleComp from '@/components/TitleComp.vue';
+// // import NewCompVue from '@/components/NewComp.vue';
 import CardComp from '@/components/CardComp.vue';
 
-import { ref } from 'vue';
+// import { ref } from 'vue';
+// import NewComp from '@/components/NewComp.vue';
 
-const imagenesrc = ref("")
-const fotoHtml = (url) => {
-  imagenesrc.value = url
-}
+// const imagenesrc = ref("")
+// const fotoHtml = (url) => {
+//   imagenesrc.value = url
+// }
 
 
 
 </script>
 
 <style  scoped>
-
+.contenedorCard{
+  display: flex;
+  background-image: url(../assets/img/fondoplanetas.jpg);
+  
+  
+}
+body{
+  background-image: url(../assets/img/fondoplanetas.jpg);
+   
+}
 </style>

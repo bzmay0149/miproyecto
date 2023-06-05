@@ -10,34 +10,27 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import('../views/AboutView.vue')
   },
   {
     path: '/html',
     name: 'html',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/HtmlView.vue')
+    component: () => import('../views/HtmlView.vue')
   },
   {
     path: '/css',
     name: 'css',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/CssView.vue')
+    component: () => import('../views/CssView.vue')
   },
   {
     path: '/js',
     name: 'js',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/JsView.vue')
+    component: () => import('../views/JsView.vue')
+  }, 
+  {
+    path: '/formquiz',
+    name: 'formquiz',
+    component: () => import('../views/FormQuizVuew.vue')
   } 
   
 ]

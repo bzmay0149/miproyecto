@@ -2,7 +2,7 @@
    
 
 <nav id="navbar-example2" class="navbar bg-body-tertiary px-5  ">
-  <router-link to="/" class="navbar-brand ps-5"><button class="btn_logo border border-5 border border-top-0"><img class="logo  " src="../assets/img/logo.png" alt="logo" ></button></router-link>
+  <router-link to="/" class="navbar-brand ps-5"><button class="btn_logo border-0 "><img class="logo  " src="../assets/img/logo.png" alt="logo" ></button></router-link>
   <!-- <router-link to="/about" class="nav-link active" aria-current="page"><button class="btn_about text-primary">Conóceme</button></router-link> -->
   <ul class="nav nav-pills">
     <li class="nav-item">
@@ -11,10 +11,10 @@
     <li class="nav-item">
       <router-link to="/css" class="nav-link" ><button class="btn_nav border border-0 rounded-5"><img class="img_len " src="../assets/img/css.png" alt="button CSS"></button></router-link>
     </li>
-    <li class="nav-item dropdown">
+     <li class="nav-item dropdown">
       <router-link to="/js" class="nav-link" ><button class="btn_nav border border-0 rounded-5"><img class="img_len " src="../assets/img/js.png" alt="button JS"></button></router-link>
       
-    </li>
+    </li> 
   </ul>
 </nav>
 
@@ -28,13 +28,14 @@
  .navbar {
   widows: 100%;
   /* height: auto; */
-  background-color: #C4DDFF; 
+  background-image: url(../assets/img/fondoplanetas.jpg); 
+  
 }
  .container-fluid{
- background: #BED7FD
+ background: black
 }
 .logo{
-  width: 40%;
+  width: 50%;
   height: 0%;
  }
 .img_len{
@@ -43,14 +44,14 @@
 }
 .btn_logo{
  
-  background-color: #BED7FD;
+  background-color: black;
   padding: auto;
-  border-radius: 30%;
+  border-radius: 10%;
   border-top: 0;
   
 }
 .btn_nav{
-  background-color: #BED7FD;
+  background-color: black;
   
   
 }

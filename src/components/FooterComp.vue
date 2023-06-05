@@ -64,9 +64,9 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color:   #C4DDFF;">
-    © 2023 Copyright:
-    <a class="text-primary" href="https://mdbootstrap.com/">MayQuiz</a>
+  <div class="text-center p-3" style="background-color:   #040910;">
+    
+    <p class="text-primary" >© 2023 Copyright: MayQuiz</p>
   </div>
   <!-- Copyright -->
 </footer>
@@ -78,18 +78,19 @@
 
 <style scoped>
 .btn_about{
-    background: #BED7FD;
+    background: #23233d58;
     border-radius: 30%;
-    border-color: #BED7FDb0;
+    border-color: #8dacdab0;
     padding: .2em;
   
   } 
   .container{
-    background-color: #C4DDFF;
+    background-color: #090910;
     
   }
   .conte{
-    background-color:   #C4DDFF;
+    background-image: url(../assets/img/fondoplanetas.jpg)
+    
     
   }
 </style>

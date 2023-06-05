@@ -1,27 +1,27 @@
 <template>
-  <!-- <div class="container ">
-   <div class="row row-cols-1 row-cols-md-3 g-4 ">
-  <div class="col "> -->
+   <div class="container">
+   <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col "> 
     <div class="card h-100">
-      <button class="btn-img"><img :src="hola"  alt="..."></button>
-      
+      <button class="btn-img"><img :src="imagenHtml"  class="card-img-top"  alt="..."></button>
+      <a :href="enlace" class="btn btn-primary">{{ start1 }}</a>
       
     </div>
-  <!-- </div>
+   </div>
   <div class="col">
     <div class="card h-100">
-      <button class="btn-img"><img src="../imgs/cardCss.jpeg" class="card-img-top rounded-pill" alt="..."></button>
-     
+      <button class="btn-img"><img :src="imagenCss" class="card-img-top" alt="..."></button>
+      <a :href="enlace" class="btn btn-primary">{{ start2 }}</a>
     </div>
   </div>
   <div class="col">
     <div class="card h-100">
-      <button class="btn-img"><img src= "../assets/img/cardJs.png" class="card-img-top rounded-pill" alt="..."></button>
-     
+      <button class="btn-img"><img :src= "imagenJs" class="card-img-top" alt="..."></button>
+      <a :href="enlace" class="btn btn-primary">{{ start3 }}</a>
     </div>
-   </div> -->
-  <!-- </div>
-</div>  -->
+   </div> 
+   </div>
+</div>  
 </template>
 
 <script>
@@ -29,8 +29,12 @@
  export default {
    name: 'CardComp',
   props: {
-     hola: String,
-      
+     imagenHtml: String,
+     imagenCss: String,
+     imagenJs: String,
+     start1: String,
+     start2: String,
+     start3: String 
     
   },
  };
@@ -38,20 +42,43 @@
 </script>
 
 <style scoped>
+
 .container{
-    background-color: #E2EAF4;
+  background-image: url(../assets/img/fondoplanetas.jpg);
+  
+  
 }
 .btn-img{
-    border: #E2EAF4;
-    background-color: #E2EAF4;
+    
+    background-image: url(../assets/img/fondoplanetas.jpg);
+    
     border: 0;
+    
+  
 }
 .card{
-    background-color: #E2EAF4;
+  background-image: url(../assets/img/fondoplanetas.jpg);
+  
     border: 0;
+  
+    
+    
 }
   .card-img-top{
-   height: 10em; 
-   width: 90%;
-}  
+   height: 12em; 
+   width: 20em;
+   border-radius: 10%;
+
+  
+  
+} 
+.btn{
+
+border-radius: 10%;
+height: 2em; 
+width: 6em;
+margin: auto;
+margin-top: 2em;
+
+} 
 </style>
