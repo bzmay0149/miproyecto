@@ -1,5 +1,5 @@
 <template>
- 
+ <div class="fondo">
   <TextComp/>
   <CardComp imagenHtml="../imgs/cardHtml.jpg" imagenCss="../imgs/cardCss.jpeg" imagenJs="../imgs/cardJs.png" start1="HTML" start2="CSS" start3="JS" /> 
   <!-- <div class="contenedorCard">   
@@ -7,7 +7,7 @@
   <NewComp imagen="../imgs/cardCss.jpeg" Start="CSS" titulo="Titulo2" alt="imagen 2" />
   <NewComp imagen="../imgs/cardJs.png" Start="JS" titulo="Titulo3" alt="imagen 3" />
   </div> -->
-
+</div>
 </template>
 
 <script setup>
@@ -24,7 +24,11 @@ import NewComp from '@/components/NewComp.vue';
 }
 .contenedorCard{
   display: flex;
-  background-image: url(../assets/img/fondoplanetas.jpg);
+  /* background-image: url(../assets/img/fondoplanetas.jpg); */
   filter: blur(6px);
+}
+.fondo{
+  background-image: url(../assets/img/fondo.jpg);
+  
 }
 </style>

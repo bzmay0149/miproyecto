@@ -1,11 +1,11 @@
 <template>
    <TitleComp title="HTML" />
    <!-- <div class="contenedorCard">  
-  <NewComp imagen="../imgs/cardHtml.jpg" Start="JUNIOR" titulo="Titulo1" alt="imagen 1"/>
-  <NewComp imagen="../imgs/cardCss.jpeg" Start="SEMI-SE" titulo="Titulo2" alt="imagen 2" />
-  <NewComp imagen="../imgs/cardJs.png" Start="SENIOR" titulo="Titulo3" alt="imagen 3" />
+  <NewComp imagen="../imgs/cardHtml.jpg" Start1="BASICO" titulo="Titulo1" alt="imagen 1"/>
+  <NewComp imagen="../imgs/cardCss.jpeg" Start2="INTERMEDIO" titulo="Titulo2" alt="imagen 2" />
+  <NewComp imagen="../imgs/cardJs.png" Start3="AVANZADO" titulo="Titulo3" alt="imagen 3" />
   </div> -->
-  <CardComp imagenHtml="../imgs/cardHtml.jpg" imagenCss="../imgs/cardCss.jpeg" imagenJs="../imgs/cardJs.png" start1="HTML" start2="CSS" start3="JS" />
+  <CardComp imagenHtml="../imgs/html1.jpeg" imagenCss="../imgs/html2.jpeg" imagenJs="../imgs/html3.jpeg" start1="JUNIOR" start2="SEMI-SE" start3="SENIOR" />
   </template>
 
 <script setup>
@@ -29,11 +29,14 @@ import CardComp from '@/components/CardComp.vue';
 .contenedorCard{
   display: flex;
   background-image: url(../assets/img/fondoplanetas.jpg);
+  background-repeat: no-repeat;
   
   
 }
 body{
   background-image: url(../assets/img/fondoplanetas.jpg);
+  background-repeat: no-repeat;
    
 }
+
 </style>

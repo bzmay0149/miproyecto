@@ -28,30 +28,36 @@
  .navbar {
   widows: 100%;
   /* height: auto; */
-  background-image: url(../assets/img/fondoplanetas.jpg); 
+  background-color: rgba(223, 217, 217, 0.871); 
   
 }
- .container-fluid{
- background: black
-}
+ 
 .logo{
   width: 50%;
   height: 0%;
+  transition: all 0.3s ease;
+ }
+ .logo:hover{
+  transform: scale(1.2);
  }
 .img_len{
   max-width: 10em;
+  transition: all 0.3s ease;
   
+}
+.img_len:hover{
+  transform: scale(1.5);
 }
 .btn_logo{
  
-  background-color: black;
+  background-color: rgba(223, 217, 217, 0.871);
   padding: auto;
   border-radius: 10%;
   border-top: 0;
   
 }
 .btn_nav{
-  background-color: black;
+  background-color: rgba(223, 217, 217, 0.871);
   
   
 }

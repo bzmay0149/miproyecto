@@ -1,7 +1,7 @@
 <template>
-    <footer class="conte text-center text-primary pt-5  pt-0">
+    <footer class="conte text-center text-primary pt-4">
   <!-- Grid container -->
-  <div class="container p-4 pb-0 mb-0">
+  <div class="container ">
     <router-link to="/about" class="nav-link active" aria-current="page"><button class="btn_about text-primary mb-4">Conóceme</button></router-link> 
     <!-- Section: Social media -->
     <section class="mb-4">
@@ -64,9 +64,9 @@
   <!-- Grid container -->
 
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color:   #040910;">
+  <div class="text-center p-1" style="background-color:   rgba(223, 217, 217, 0.871);">
     
-    <p class="text-primary" >© 2023 Copyright: MayQuiz</p>
+    <p class="text-primary " >© 2023 Copyright: MayQuiz</p>
   </div>
   <!-- Copyright -->
 </footer>
@@ -78,19 +78,23 @@
 
 <style scoped>
 .btn_about{
-    background: #23233d58;
+    background: #d2d2dd58;
     border-radius: 30%;
-    border-color: #8dacdab0;
-    padding: .2em;
-  
+    /* border-color: #9a9ca1ab; */
+    padding: .8em;
+    border: 3px solid rgba(236, 231, 231, 0.11);
+    box-shadow: 5px 5px 6px 4px rgb(112, 109, 109);
+    transition: all 0.3s ease;
   } 
-  .container{
-    background-color: #090910;
-    
+  .btn_about:hover{
+    background-color: rgb(34, 33, 33);
   }
   .conte{
-    background-image: url(../assets/img/fondoplanetas.jpg)
+    background-color: rgba(223, 217, 217, 0.871);
     
     
   }
+  /* .container{
+    background-color: darkgrey;
+  } */
 </style>

@@ -42,6 +42,7 @@ export default{
     
    
    background-image: url(../assets/img/fondoplanetas.jpg);
+   background-repeat: no-repeat;
   }
 
   .card-img-top{ 
@@ -65,6 +66,7 @@ export default{
     
     border: none;
     background-image: url(../assets/img/fondoplanetas.jpg);
+    background-repeat: no-repeat;
     
   }
   </style>

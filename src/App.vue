@@ -14,7 +14,9 @@ import FooterComp from '@/components/FooterComp.vue';
 
 <style>
  body {
-  background-image: url(../src/assets/img/fondoplanetas.jpg)
+  background-image: url(../src/assets/img/fondo.jpg);
+  
+  
   
 } 
 </style>
