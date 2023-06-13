@@ -28,10 +28,28 @@ const routes = [
     component: () => import('../views/JsView.vue')
   }, 
   {
+    
+    path: '/quiz',
+    name: '/quiz',
+    component: () => import('../views/QuizView.vue')
+
+  },
+  {
     path: '/formquiz',
     name: 'formquiz',
-    component: () => import('../views/FormQuizVuew.vue')
-  } 
+    component: () => import('../views/FormQuizView.vue')
+  },
+  {
+    path: '/modify',
+    name: 'modify',
+    component: () => import('../views/ModifyFormView.vue')
+  }, 
+  {
+    path: '/quizform',
+    name: 'quizform',
+    component: () => import('../views/QuizView.vue')
+
+  }  
   
 ]
 

@@ -5,7 +5,7 @@
   <NewComp imagen="../imgs/cardCss.jpeg" Start2="INTERMEDIO" titulo="Titulo2" alt="imagen 2" />
   <NewComp imagen="../imgs/cardJs.png" Start3="AVANZADO" titulo="Titulo3" alt="imagen 3" />
   </div> -->
-  <CardComp imagenHtml="../imgs/html1.jpeg" imagenCss="../imgs/html2.jpeg" imagenJs="../imgs/html3.jpeg" start1="JUNIOR" start2="SEMI-SE" start3="SENIOR" />
+  <CardComp imagenHtml="../imgs/html1.jpeg" imagenCss="../imgs/html2.jpeg" imagenJs="../imgs/html3.jpeg" start1="INICIO" start2="MEDIO" start3="EXPERTO" />
   </template>
 
 <script setup>
